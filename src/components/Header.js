@@ -5,9 +5,9 @@ import {
 } from 'react-icons/ai';
 
 const Header = () => (
-  <header className="d-flex px-4 py-1 align-items-center justify-content-between">
+  <header className="d-flex px-4 py-1 align-items-center justify-content-between background">
     <Link to="/">
-      <AiOutlineHome size={25} />
+      <AiOutlineHome size={25} className="white" />
     </Link>
     <h1>Soccer Hub</h1>
     <div className="d-flex gap-4">
