@@ -25,3 +25,31 @@ code {
     'Courier New',
     monospace;
 }
+
+.css-style {
+  box-shadow: 0 5px 5px 5px #d3d3d3;
+}
+
+.hover {
+  cursor: pointer;
+  margin: 8px;
+}
+
+.background {
+  background-color: #072a4b;
+  color: #fff;
+}
+
+.white {
+  color: #fff;
+}
+
+.highlight {
+  box-shadow: 0 2px 2px 2px #fff;
+}
+
+button {
+  background-color: #072a4b;
+  border: 1px solid #fff;
+  color: #fff;
+}
