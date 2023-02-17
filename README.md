@@ -40,6 +40,7 @@
     <li>ReactJS</li>
     <li>Redux</li>
     <li>Javascript</li>
+    <li>Bootstrap</li>
   </ul>
 </details>
 <details>
@@ -62,20 +63,18 @@
 
 #### 🔭 Future Features <a name="future-features"></a>
 
-- **Add Home page**
-- **Add details page**
-- **Add a link to live version**
-- **Add a project presentation video**
+- **Add animations and transitions**
+- **Implement additional pages**
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="#" target="_blank">Live Demo Link</a>
+- <a href="https://soccer-hub.onrender.com" target="_blank">Live Demo Link</a>
   
 ## 🚀 Project Presentation Video <a name="live-demo"></a>
 
-- <a href="#" target="_blank"> [Video Project Presentation Link](#) </a>
+- <a href="https://drive.google.com/file/d/1lGwYyWEmp3Eiz7gypf5XoGfO73m6TNhf/view?usp=sharing" target="_blank"> [Video Project Presentation Link](#) </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +165,7 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and my fellow Micronauts.
+Credits to [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
