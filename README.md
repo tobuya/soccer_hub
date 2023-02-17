@@ -74,7 +74,7 @@
   
 ## 🚀 Project Presentation Video <a name="live-demo"></a>
 
-- <a href="https://www.loom.com/share/0e13672b9c0e463581ea3146c0adc4f2" target="_blank"> [Video Project Presentation Link](#) </a>
+- <a href="https://www.loom.com/share/0e13672b9c0e463581ea3146c0adc4f2" target="_blank"> Video Project Presentation Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
