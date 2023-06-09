@@ -1,4 +1,9 @@
 <a name="readme-top"></a>
+[![Contributors](https://img.shields.io/github/contributors/tobuya/soccer_hub)](https://github.com/tobuya/soccer_hub/graphs/contributors)
+[![LastUpdate](https://img.shields.io/github/last-commit/tobuya/soccer_hub)](https://github.com/tobuya/soccer_hub/commits/dev)
+[![Stargazers](https://img.shields.io/github/stars/tobuya/soccer_hub)](https://github.com/tobuya/soccer_hub/stargazers)
+[![Issues](https://img.shields.io/github/issues/tobuya/soccer_hub)](https://github.com/tobuya/soccer_hub/issues)
+[![License](https://img.shields.io/github/license/tobuya/soccer_hub)](https://github.com/tobuya/soccer_hub/blob/main/LICENSE)
 
 <!-- TABLE OF CONTENTS -->
 
