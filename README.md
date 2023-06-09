@@ -10,7 +10,6 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
       - [🔭 Future Features ](#-future-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [🚀 Project Presentation Video ](#-project-presentation-video-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
@@ -65,6 +64,7 @@
 
 - **Add animations and transitions**
 - **Implement additional pages**
+- **Improve UI**
 
 <!-- LIVE DEMO -->
 
@@ -72,12 +72,6 @@
 
 - <a href="https://soccer-hub.onrender.com" target="_blank">Live Demo Link</a>
   
-## 🚀 Project Presentation Video <a name="live-demo"></a>
-
-- <a href="https://www.loom.com/share/0e13672b9c0e463581ea3146c0adc4f2" target="_blank"> Video Project Presentation Link</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
