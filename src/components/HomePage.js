@@ -25,6 +25,13 @@ const Competition = () => {
     setSelectedCompetition(null);
   };
 
+  const competitions = Object.keys(matchesByCompetition).map((competitionName) => ({
+    name: competitionName,
+    matchCount: matchesByCompetition[competitionName].length,
+  }));
+
+  competitions.sort((a, b) => b.matchCount - a.matchCount);
+
   return (
     <>
       <div className="input-group mt-2 input-group-lg">
@@ -49,20 +56,19 @@ const Competition = () => {
             ))}
           </div>
         ) : (
-          Object.keys(matchesByCompetition)
-            .filter(
-              (competitionName) => competitionName
-                .toLowerCase()
-                .includes(searchCompetitionName.toLowerCase()),
-            )
-            .map((competitionName) => (
-              <div key={competitionName} className="d-flex align-items-center justify-content-center flex-grow-1">
-                <button type="button" className="d-flex gap-5 p-5 flex-fill align-items-center justify-content-center" onClick={() => handleCompetitionClick(competitionName)}>
-                  <FiArrowRightCircle className="order-1" />
-                  {competitionName}
-                </button>
-              </div>
-            ))
+          competitions.map(({ name, matchCount }) => (
+            <div key={name} className="d-flex align-items-center justify-content-center flex-grow-1">
+              <button type="button" className="d-flex flex-column gap-2 p-5 flex-fill align-items-center justify-content-center" onClick={() => handleCompetitionClick(name)}>
+                <FiArrowRightCircle className="order-1" />
+                {name}
+                <p>
+                  Matches in this competition:
+                  {' '}
+                  {matchCount}
+                </p>
+              </button>
+            </div>
+          ))
         )}
       </div>
     </>
