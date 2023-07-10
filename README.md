@@ -136,9 +136,9 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 👤 **Thomas Obuya**
 
-- GitHub: [@githubhandle](https://github.com/tobuya)
-- Twitter: [@twitterhandle](https://twitter.com/@MullerTheGreat1)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/tobuya/)
+- [GitHub](https://github.com/tobuya)
+- [Medium](https://medium.com/@tobuya)
+- [LinkedIn](https://linkedin.com/in/tobuya/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
