@@ -32,7 +32,7 @@
 
 # 📖 Soccer Hub<a name="about-project"></a>
 
-> Soccer Hub is a football website that allows you to watch recent official highlights of the Premier League, Champions League, La Liga, Serie A, Europa League and many more matches of your favorite football leagues. It is built using React & Redux and uses ScoreBat recent feed free video API
+> Soccer Hub is a football website that allows you to watch some live football matches as well as recent official highlights of the Premier League, Champions League, La Liga, Serie A, Europa League and many more matches of your favorite football leagues. It is built using React & Redux and uses ScoreBat recent feed free video API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -61,15 +61,15 @@
 - **Filter recent videos highlights by competition name**
 - **Display all recent highlights in the selected competition**
 - **Click on a highlight of choice to watch the official match highlight**
+- **Watch some live football matches**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### 🔭 Future Features <a name="future-features"></a>
 
-- **Add animations and transitions**
-- **Implement additional pages**
-- **Improve UI**
+- **Implement additional features**
+- **Improve user interface and user experience**
 
 <!-- LIVE DEMO -->
 
