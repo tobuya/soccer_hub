@@ -47,7 +47,7 @@ const Competition = () => {
         </div>
       )}
 
-      <div className="d-flex flex-wrap mx-4 my-2">
+      <div className="d-flex flex-wrap mx-3 my-2">
         {selectedCompetition ? (
           <section className="d-flex flex-column w-100 gap-2">
             <h4 className="text-center competition-name">
@@ -83,7 +83,7 @@ const Competition = () => {
             )
             .map((competitionName) => (
               <div key={competitionName} className="d-flex align-items-center justify-content-center flex-grow-1 col-lg-4 col-md-6">
-                <button type="button" className="d-flex flex-column gap-3 p-5 align-items-center justify-content-center flex-grow-1" onClick={() => handleCompetitionClick(competitionName)}>
+                <button type="button" className="h-100 d-flex flex-column gap-3 p-5 align-items-center justify-content-center flex-grow-1" onClick={() => handleCompetitionClick(competitionName)}>
                   <FiArrowRightCircle className="order-1" />
                   {competitionName}
                   <p className="text-muted">
