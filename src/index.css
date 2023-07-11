@@ -58,3 +58,8 @@ button {
   color: green;
   font-weight: 900;
 }
+
+.competition-name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+}
