@@ -57,16 +57,16 @@ const Competition = () => {
               <CurrentDate />
               )
             </h4>
-            <main className="d-flex flex-lg-row flex-column flex-wrap col-12">
+            <main className="d-flex flex-lg-row flex-md-row flex-column flex-wrap col-12 gap-2 justify-content-center align-items-center">
               {matchesByCompetition[selectedCompetition].map((match) => (
-                <div key={match.matchId} className="col-lg-6 col-md-12 border border-seconday shadow-lg rounded">
+                <div key={match.matchId} className="col-lg-6 col-md-12 border border-seconday shadow-lg rounded match-details">
                   <FiArrowLeftCircle onClick={handleMatchClose} className="m-lg-2 m-sm-1 hover" />
                   <div key={match.matchId} className="d-flex flex-column mb-2 mx-lg-3 mx-sm-2">
                     <div className="d-flex justify-content-between">
                       <p className="fw-bolder match-title">{match.matchTitle}</p>
                       <p className="fw-bolder match-date">{new Date(match.datePlayed).toDateString()}</p>
                     </div>
-                    <div className="">
+                    <div>
                       <div dangerouslySetInnerHTML={{ __html: match.highlightsVideo }} className="highlight" />
                     </div>
                   </div>
@@ -83,7 +83,7 @@ const Competition = () => {
             )
             .map((competitionName) => (
               <div key={competitionName} className="d-flex align-items-center justify-content-center flex-grow-1 col-lg-4 col-md-6">
-                <button type="button" className="d-flex flex-column gap-3 p-5 flex-fill align-items-center justify-content-center flex-1" onClick={() => handleCompetitionClick(competitionName)}>
+                <button type="button" className="d-flex flex-column gap-3 p-5 align-items-center justify-content-center flex-grow-1" onClick={() => handleCompetitionClick(competitionName)}>
                   <FiArrowRightCircle className="order-1" />
                   {competitionName}
                   <p className="text-muted">
