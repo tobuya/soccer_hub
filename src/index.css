@@ -63,3 +63,19 @@ button {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: blue;
 }
+
+.match-details {
+  width: 98%;
+}
+
+@media only screen and (min-width: 1080px) {
+  .match-details {
+    width: 49.65%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .match-details {
+    width: 49.4%;
+  }
+}
